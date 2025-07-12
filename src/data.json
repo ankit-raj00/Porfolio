@@ -3,7 +3,7 @@
     "name": "Ankit Raj",
     "subtitle": "AI | Data Science | Full-Stack Web Development | Economics",
     "ctas": [
-      { "label": "View Resume", "link": "/resume" },
+      { "label": "View Resume", "link": "/Resume.pdf" },
       { "label": "View Projects", "link": "#projects" }
     ],
     "socialLinks": [
