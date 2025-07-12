@@ -1,12 +1,41 @@
-# React + Vite
+# Ankit Raj - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the source code for my personal portfolio website, built to showcase my skills and projects in AI, Data Science, and Full-Stack Web Development.
 
-Currently, two official plugins are available:
+The live version can be viewed at: [Your Domain Here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+*   **Dynamic Content:** Portfolio data is managed via a single `data.json` file, making it easy to update projects, skills, and experiences.
+*   **Interactive UI:** Built with React and Framer Motion for a smooth, animated user experience.
+*   **Project Filtering:** Users can filter projects by category (GenAI, Web Dev, Data Science, etc.) to quickly find relevant work.
+*   **Theming:** Includes a dark/light mode toggle for user preference.
+*   **Integrated Resume Viewer:** Displays the resume directly on the site using `react-pdf`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+*   **Frontend:** React, Vite, Tailwind CSS
+*   **Animations:** Framer Motion
+*   **Routing:** React Router
+*   **PDF Viewing:** react-pdf
+
+## Getting Started
+
+To run this project locally:
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/ankit-raj00/Porfolio.git
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd Porfolio
+    ```
+3.  Install the dependencies:
+    ```bash
+    npm install
+    ```
+4.  Start the development server:
+    ```bash
+    npm run dev
+    ```
